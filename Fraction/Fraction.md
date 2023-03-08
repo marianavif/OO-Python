@@ -39,4 +39,19 @@
   > Multiplication method between the object and the parameter object. Numerators are multiplied one by the other and denominators are multiplied one
   > by the other. Then it is used the simplify method.
   
+  * printFraction()
+  > Print method. Prints on the screen the fraction that represents the object.
   
+  * simplify()
+  > Simplify fraction method. Calculates the divisors list of both numerator and denominator and compares them until it finds the highest value in common.
+  > Then it divides both numerator and denominator by this number.
+  
+  * subtract(*object*)
+  > Subtraction method. Subtracts the parameter object from the object. It uses the lcm method to equal the denominators and then subtracts from the
+  > numerator the value of the parameter object's numerator. Then it uses the simplify method.
+  
+  * verifyNullDen()
+  > Method to verify if the denominator of the object is zero or null. Raises an exception if the conjecture is true.
+  
+  *verifyType()
+  > Method to verify if the numerator and the denominator are integer values. Raises an exception if at least one of them is not.
